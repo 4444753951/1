@@ -1,13 +1,14 @@
-#include "SeqList.h"
+#define _CRT_SECURE_NO_WARNINGS
 
-void TestSeqList1()
-{
-	SL s1;
-	SeqListInit(&s1);
-}
+#include<stdio.h>
 
 int main()
 {
-	TestSeqList1();
-	return 0;
+	int a = 0, b = 0, c = 0,d=0;
+	a = sizeof(int);
+	b = sizeof(int*);
+	c = sizeof(char*);
+	d = sizeof(float*);
+	printf("%d %d %d %d\n", a, b, c, d);
+
 }
