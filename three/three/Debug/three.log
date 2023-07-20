@@ -1,0 +1,3 @@
+﻿  three.cpp
+c:\users\a\documents\visual studio 2013\projects\three\three\three.cpp(130): warning C4715: “Win”: 不是所有的控件路径都返回值
+  three.vcxproj -> C:\Users\a\documents\visual studio 2013\Projects\three\Debug\three.exe
